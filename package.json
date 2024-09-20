@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "@glidejs/glide": "^3.6.2",
+    "aos": "^2.3.4"
+  },
+  "name": "mobile-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "hello"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhdrxnr/phone-shop.git"
+  },
+  "keywords": [
+    "idk"
+  ],
+  "author": "mhd",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/mhdrxnr/phone-shop/issues"
+  },
+  "homepage": "https://github.com/mhdrxnr/phone-shop#readme",
+  "devDependencies": {},
+  "description": ""
+}
