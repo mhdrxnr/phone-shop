@@ -408,3 +408,41 @@ h4{
         display: none;
     }
 }
+
+/* collection */
+
+.section{
+    padding: 3rem 0;
+}
+
+.collection{
+    margin: 3rem 0;
+}
+
+.collection_container{
+    width: 100%;
+    padding: 0 1.6rem;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.collection_box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    flex: 0 0 48%;
+    height: 30rem;
+    background-color: var(--primaryColor);
+}
+
+.collection_box:not(:last-child){
+    margin-right: 1.6rem;
+}
+
+.img_container{
+    width: 25rem;
+    text-align: center;
+}
