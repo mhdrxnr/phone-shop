@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- font link -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- favicon link -->
+     <link rel="shortcut icon" href="images/smartphone-call.png" type="image/x-icon">
+
+    <!-- glidejs carousel link -->
+     <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+
+     <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
+
+    <!-- aos: animated on scroll link -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- stylesheet -->
+     <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- header -->
+
+<header class="header" id="header">
+    <!-- navigation -->
+     <div class="navigation">
+        <div class="container">
+            <nav class="nav">
+                <div class="nav_hamburger">
+                    <svg id="menu-icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
+                        <path d="M 5 8 A 2.0002 2.0002 0 1 0 5 12 L 45 12 A 2.0002 2.0002 0 1 0 45 8 L 5 8 z M 5 23 A 2.0002 2.0002 0 1 0 5 27 L 45 27 A 2.0002 2.0002 0 1 0 45 23 L 5 23 z M 5 38 A 2.0002 2.0002 0 1 0 5 42 L 45 42 A 2.0002 2.0002 0 1 0 45 38 L 5 38 z"></path>
+                    </svg>
+                </div>
+
+                <div class="nav_logo">
+                    <a href="/" class="scroll_link">phone shop</a>
+                </div>
+
+                <div class="nav_menu">
+                    <div class="menu_top">
+                        <span class="nav_category">phone shop</span>
+                        <a href="" class="close_toggle">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
+                                <path d="M 9.15625 6.3125 L 6.3125 9.15625 L 22.15625 25 L 6.21875 40.96875 L 9.03125 43.78125 L 25 27.84375 L 40.9375 43.78125 L 43.78125 40.9375 L 27.84375 25 L 43.6875 9.15625 L 40.84375 6.3125 L 25 22.15625 Z"></path>
+                                </svg>
+                        </a>
+                    </div>
+
+                    <ul class="nav_list">
+                        <li class="nav_item">
+                            <a href="#header" class="nav_link scroll-link">Home</a>
+                        </li>
+    
+                        <li class="nav_item">
+                            <a href="#category" class="nav_link scroll-link">Category</a>
+                        </li>
+    
+                        <li class="nav_item">
+                            <a href="#news" class="nav_link scroll-link">Blog</a>
+                        </li>
+    
+                        <li class="nav_item">
+                            <a href="#contact" class="nav_link scroll-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav_icons">
+                    <a href="" class="icon_item">
+                        <?xml version="1.0" encoding="UTF-8"?>
+                            <!-- The Best Svg Icon site in the world: iconSvg.co, Visit us! https://iconsvg.co -->
+                            <svg id="svg" fill="#000000" stroke="#000000" width="200px" height="200px" version="1.1" viewBox="144 144 512 512" xmlns="http://www.w3.org/2000/svg">
+                                <g id="IconSvg_bgCarrier" stroke-width="0"></g>
+                                <g id="IconSvg_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC"></g>
+                                    <g id="IconSvg_iconCarrier">
+                                        <g xmlns="http://www.w3.org/2000/svg">
+                                            <path d="m520.7 295.04c0 66.664-54.043 120.7-120.7 120.7-66.664 0-120.71-54.039-120.71-120.7 0-66.664 54.043-120.71 120.71-120.71 66.66 0 120.7 54.043 120.7 120.71"/>
+                                            <path d="m295.04 447.23h209.92c43.477 0 78.719 43.477 78.719 78.719v20.992c0 43.477-35.246 78.719-78.719 78.719h-209.92c-43.477 0-78.719-43.477-78.719-78.719v-20.992c0-43.477 35.246-78.719 78.719-78.719z"/>
+                                        </g>
+                                </g>
+                            </svg>
+                    </a>
+
+                    <a href="" class="icon_item">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
+                            <path d="M 21 3 C 11.601563 3 4 10.601563 4 20 C 4 29.398438 11.601563 37 21 37 C 24.355469 37 27.460938 36.015625 30.09375 34.34375 L 42.375 46.625 L 46.625 42.375 L 34.5 30.28125 C 36.679688 27.421875 38 23.878906 38 20 C 38 10.601563 30.398438 3 21 3 Z M 21 7 C 28.199219 7 34 12.800781 34 20 C 34 27.199219 28.199219 33 21 33 C 13.800781 33 8 27.199219 8 20 C 8 12.800781 13.800781 7 21 7 Z"></path>
+                            </svg>
+                    </a>
+
+                    <a href="" class="icon_item">
+                        <?xml version="1.0" encoding="UTF-8"?>
+                            <!-- The Best Svg Icon site in the world: iconSvg.co, Visit us! https://iconsvg.co -->
+                            <svg id="svg" fill="#000000" stroke="#000000" width="200px" height="200px" version="1.1" viewBox="144 144 512 512" xmlns="http://www.w3.org/2000/svg">
+                                <g id="IconSvg_bgCarrier" stroke-width="0"></g>
+                                    <g id="IconSvg_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC"></g>
+                                        <g id="IconSvg_iconCarrier">
+                                            <path xmlns="http://www.w3.org/2000/svg" d="m177.66 171.25c-3.6523 0-6.4219 2.7695-6.4219 6.4219 0 3.6523 2.7695 6.4219 6.4219 6.4219h75.617l4.5977 55.418 16.547 198.62-6.0156 1.5898c-21.758 5.7461-37.879 25.586-37.879 49.199 0 28.133 22.734 50.883 50.883 50.883h15.633l-7.0078 11.32c-4.832 7.7773-7.6367 16.926-7.6367 26.75 0 28.133 22.766 50.883 50.902 50.883 28.133 0 50.902-22.75 50.902-50.883 0-9.8242-2.8008-18.957-7.6055-26.75l-7.0078-11.32h157.17l-7.0078 11.32c-4.8164 7.7773-7.6055 16.91-7.6055 26.75 0 28.133 22.766 50.883 50.902 50.883 28.133 0 50.902-22.75 50.902-50.883 0-10.125-2.9453-19.492-8.0469-27.441l-5.0703-7.8711 8.832-3.1016c2.4727-0.86719 4.2812-3.1953 4.2812-6.0781 0-3.6523-2.7695-6.4219-6.4219-6.4219h-326.07c-20.906 0-38.023-17.129-38.023-38.023 0-20.891 17.098-38.039 38.008-38.055h326.07c3.4336 0 6.1562-2.5352 6.3906-5.9688l14.816-207.51c0.125-1.8125-0.48828-3.5586-1.6992-4.8633-1.2422-1.3242-2.8828-2.0312-4.6914-2.0312h-171.45v-38.023c0-3.6523-2.7695-6.4219-6.4219-6.4219s-6.4219 2.7695-6.4219 6.4219v38.023h-168l-4.4258-53.402c-0.28516-3.3867-2.9922-5.8711-6.4219-5.8711zm93.488 72.105h166.9v111.42l-33.488-33.488c-2.582-2.582-6.5039-2.582-9.0859 0-2.582 2.582-2.582 6.5039 0 9.0859l44.461 44.477c1.2734 1.2734 2.8984 1.8906 4.5508 1.8906 1.6523 0 3.2578-0.59766 4.5508-1.8906l44.461-44.477c2.582-2.582 2.582-6.5039 0-9.0859s-6.5039-2.582-9.0859 0l-33.488 33.488v-111.42h164.51l-13.887 194.63h-314.19l-15.508-186.61zm62.16 296.43c20.906 0 38.055 17.145 38.055 38.055 0 20.906-17.145 38.023-38.055 38.023-20.906 0-38.023-17.129-38.023-38.023 0-20.891 17.113-38.055 38.023-38.055zm229.77 0c20.906 0 38.023 17.145 38.023 38.055 0 20.906-17.129 38.023-38.023 38.023-20.906 0-38.055-17.113-38.055-38.023 0-20.906 17.145-38.055 38.055-38.055z"/>
+                                        </g>
+                            </svg>
+                            <span id="cart_total">0</span>
+                    </a>
+                </div>
+                
+            </nav>
+        </div>
+     </div>
+
+     <!-- Hero area -->
+      <div class="hero">
+        <div class="glide" id="glide_1">
+            <div class="glide__track" data-glide-el="track">
+              <ul class="glide__slides">
+                <li class="glide__slide">
+                    <div class="hero_center">
+                        <div class="hero_left">
+                            <span>Modern Phones In Our Shop</span>
+                            <span>Just For You Herry Up!</span>
+                            <span>With Helpfull Price</span>
+                            <a href="#"><button class="hero_btn">SHOP NOW</button></a>
+                        </div>
+                        <div class="hero_right">
+                            <div class="hero_img-container">
+                                <img src="/images/download (6).jpg" alt="" class="banner01">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="glide__slide"></li>
+                    <div class="hero_center">
+                        <div class="hero_left">
+                            <span>Modern Phones In Our Shop</span>
+                            <span>Just For You Herry Up!</span>
+                            <span>With Helpfull Price</span>
+                            <a href="#"><button class="hero_btn">SHOP NOW</button></a>
+                        </div>
+                        <div class="hero_right">
+                            <div class="hero_img-container">
+                                <img src="/images/download (7).jpg" alt="" class="banner02">
+                            </div>
+                        </div>
+                    </div>
+                </li> 
+              </ul>
+
+            </div>
+
+            <div class="glide__bullets" data-glide-el="controls[nav]">
+                <button class="glide__bullet" data-glide-dir="=0"></button>
+                <button class="glide__bullet" data-glide-dir="=1"></button>
+                <button class="glide__bullet" data-glide-dir="=2"></button>
+              </div>
+
+              <div class="glide__arrows" data-glide-el="controls">
+                <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                    <?xml version="1.0" encoding="UTF-8"?>
+                        <!-- The Best Svg Icon site in the world: iconSvg.co, Visit us! https://iconsvg.co -->
+                        <svg id="svg" fill="#000000" stroke="#000000" width="200px" height="200px" version="1.1" viewBox="144 144 512 512" xmlns="http://www.w3.org/2000/svg">
+                            <g id="IconSvg_bgCarrier" stroke-width="0"></g>
+                            <g id="IconSvg_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC"></g>
+                            <g id="IconSvg_iconCarrier">
+                                <path xmlns="http://www.w3.org/2000/svg" d="m238.93 394.09c-1.2734 1.2734-2.2812 2.793-2.9766 4.4727-0.023437 0.066406-0.035156 0.13281-0.058594 0.19531-0.60938 1.5508-0.96094 3.2148-0.96094 4.9688 0 1.7734 0.35938 3.4375 0.96094 4.9727 0.023438 0.066406 0.035157 0.12109 0.058594 0.1875 0.69531 1.6914 1.7031 3.2148 2.9766 4.4727l101.12 101.25c5.3164 5.3164 13.926 5.3164 19.234 0 5.3242-5.3086 5.3164-13.914 0.011719-19.234l-77.961-78.047h270.88c7.5156 0 13.602-6.082 13.602-13.598 0-7.5117-6.0859-13.602-13.602-13.602h-270.85l77.934-77.926c2.6562-2.6562 3.9844-6.1406 3.9844-9.6172 0-3.4805-1.3281-6.9609-3.9844-9.6172-5.3164-5.3164-13.926-5.3164-19.234 0z"/>
+                            </g>
+                        </svg>
+                </button>
+                <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                    <?xml version="1.0" encoding="UTF-8"?>
+                        <!-- The Best Svg Icon site in the world: iconSvg.co, Visit us! https://iconsvg.co -->
+                        <svg id="svg" fill="#000000" stroke="#000000" width="200px" height="200px" version="1.1" viewBox="144 144 512 512" xmlns="http://www.w3.org/2000/svg">
+                            <g id="IconSvg_bgCarrier" stroke-width="0"></g>
+                            <g id="IconSvg_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC"></g>
+                            <g id="IconSvg_iconCarrier">
+                                <path xmlns="http://www.w3.org/2000/svg" d="m546.1 400c-0.15625-3.4844-1.4844-7.3672-3.3047-9.6055l-65.496-80.609c-5.5898-6.6094-15.191-7.1562-21.336-2.125-6.1406 5.0273-7.1523 15.191-2.125 21.336l45.344 55.891h-230.18c-8.3477 0-15.113 6.7656-15.113 15.113s6.7656 15.113 15.113 15.113h230.18l-45.344 55.891c-5.0312 6.1406-3.9141 16.184 2.125 21.336 6.2539 5.3359 16.305 4.1133 21.336-2.125l65.496-80.609c2.5586-3.1328 3.0977-5.7812 3.3047-9.6055z"/>
+                            </g>
+                        </svg>
+                </button>
+              </div>
+          </div>
+      </div>
+</header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- -------------- script matching --------------------- -->
+
+    <!-- glide js -->
+    <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+
+    <!-- aos: animated on scroll -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- script files -->
+    <script src="/javascript/index.js"></script>
+    <script src="/javascript/product.js"></script>
+    <script src="/javascript/slider.js"></script>
+    
+</body>
+</html>
