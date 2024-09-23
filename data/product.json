@@ -1,0 +1,55 @@
+
+{
+"products":[
+    {
+        "title":"iphone13",
+        "image":"/images/iphone13.png",
+        "price":"123",
+        "category":"Special Products"
+    },
+    {
+        "title":"iphone12",
+        "image":"/images/iphone12.png",
+        "price":"155",
+        "category":"Special Products"
+    },
+    {
+        "title":"samsung s22",
+        "image":"/images/samusngs22.png",
+        "price":"200",
+        "category":"Trending Products"
+    },
+    {
+        "title":"iphone se",
+        "image":"/images/iphonese.png",
+        "price":"123",
+        "category":"Special Products"
+    },
+    {
+        "title":"iphone 10",
+        "image":"/images/iphone10.png",
+        "price":"140",
+        "category":"Featured Products"
+    },
+    {
+        "title":"samsung s24ultra",
+        "image":"/images/samsungs24ultra.png",
+        "price":"170",
+        "category":"Featured Products"
+    },
+    {
+        "title":"iphone 15",
+        "image":"/images/iphone14.png",
+        "price":"146",
+        "category":"Trending Products"
+    },
+    {
+        "title":"samsung s21",
+        "image":"/images/samsungs21.png",
+        "price":"123",
+        "category":"Trending Products"
+    }
+]
+
+}
+

@@ -22,9 +22,8 @@ window.addEventListener('DOMContentLoaded', async () =>{
 const categoryCenter = document.querySelector(".category_center");
 //display products
 
-const displayProductItems= items =>{
-    let displayProduct = items.map(product=>
-        ` <div class="product category_product">
+function displayProductItems(items) {
+    let displayProduct = items.map(product => ` <div class="product category_product">
                                     <div class="product_header">
                                         <img src=${product.image} alt="">
                                     </div>
@@ -130,8 +129,42 @@ const displayProductItems= items =>{
     );
 
     displayProduct = displayProduct.join('');
-    if(categoryCenter){
-        categoryCenter.innerHTML = displayProduct
+    if (categoryCenter) {
+        categoryCenter.innerHTML = displayProduct;
     }
 }
 // filtering
+
+const filterBtn = document.querySelectorAll('.filter-btn');
+const categoryContainer = document.getElementById('category');
+
+if(categoryContainer){
+    categoryContainer.addEventListener('click',async e =>{
+        const target = e.target.closest(".section_title");
+        if(!target) return;
+
+        const id = target.dataset.id;
+        const products = await getProducts();
+
+        if (id){
+            // remove active class and add it
+            Array.from(filterBtn).forEach(btn =>{
+                btn.classList.remove("active");
+            });
+            target.classList.add("active");
+
+            //loaded products
+            let menuCategory = products.filter(product=>{
+                if(product.category == id){
+                    return product;
+                }
+            });
+
+            if(id == "All Products"){
+                displayProductItems(products);
+            }else{
+                displayProductItems(menuCategory);
+            }
+        }
+    });
+}
