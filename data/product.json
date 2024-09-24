@@ -17,19 +17,19 @@
         "title":"samsung s22",
         "image":"/images/samusngs22.png",
         "price":"200",
-        "category":"Trending Products"
+        "category":"Samsung"
     },
     {
         "title":"iphone se",
         "image":"/images/iphonese.png",
         "price":"123",
-        "category":"Special Products"
+        "category":"Apple"
     },
     {
         "title":"iphone 10",
         "image":"/images/iphone10.png",
         "price":"140",
-        "category":"Featured Products"
+        "category":"Apple"
     },
     {
         "title":"samsung s24ultra",
@@ -41,13 +41,13 @@
         "title":"iphone 15",
         "image":"/images/iphone14.png",
         "price":"146",
-        "category":"Trending Products"
+        "category":"Apple"
     },
     {
         "title":"samsung s21",
         "image":"/images/samsungs21.png",
         "price":"123",
-        "category":"Trending Products"
+        "category":"Samsung"
     }
 ]
 

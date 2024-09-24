@@ -2,6 +2,7 @@
 
 const slider1 = document.getElementById("glide_1");
 const slider2 = document.getElementById("glide_2");
+const slider3 = document.getElementById("glide_3");
 // hero
 
 if(slider1){
@@ -36,3 +37,14 @@ if(slider2){
     }).mount();
 }
 // testimonial
+
+if(slider3){
+    new Glide(slider3, {
+        type: "carousel",
+        startAt: 0,
+        hoverpause: true,
+        perView: 1,
+        animationDuration: 800,
+        animationTimingFunc: "ease-in-out",
+    }).mount();
+}
