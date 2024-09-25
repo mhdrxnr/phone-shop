@@ -1464,3 +1464,164 @@ span.dot::before{
     color: var(--white);
     background-color: var(--black);
 }
+
+
+/* news letter */
+.newsletter{
+    padding: 6rem 0;
+    border-top: 1px solid var(--primaryColor);
+}
+
+.newsletter_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.newsletter_data h3{
+    font-size: 2.4rem;
+    font-weight: inherit;
+    margin-bottom: 1rem;
+}
+
+.newsletter_data p{
+    font-size: 1.5rem;
+    color: var(--black);
+}
+
+.newsletter_email{
+    display: inline-block;
+    width: 37rem;
+    padding: 1.6rem;
+    background-color: var(--primaryColor);
+    border: none;
+    text-indent: 1rem;
+}
+
+.newsletter_email:focus{
+    outline: none;
+}
+
+.newsletter_link:link,
+.newsletter_link:visited{
+    display: inline-block;
+    padding: 1.4rem 3rem;
+    margin-left: -.5rem;
+    background-color: var(--black);
+    color: var(--white);
+    transition: .3s;
+}
+
+.newsletter_link:hover{
+    background-color: var(--white);
+    color: var(--black);
+    border: 1px solid var(--black);
+}
+
+/* newsletter media query */
+
+@media only screen and (max-width: 999px){
+    .newsletter{
+        padding: 6rem 4rem;
+    }
+
+    .newsletter_content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .newsletter_email{
+        width: 45rem;
+    }
+
+    .newsletter_data{
+        margin-bottom: 2rem;
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+    .newsletter_content{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .newsletter_email{
+        display: block;
+        margin-bottom: 1.6rem;
+    }
+
+    .newsletter_data h3{
+        font-size: 1.6rem;
+    }
+
+    .newsletter_data p{
+        font-size: 1rem;
+    }
+
+    .newsletter_link:link,
+    .newsletter_link:visited{
+    padding: 1.2rem 2rem;
+    margin-left: 0rem;
+}   
+}
+
+/* footer */
+
+.footer{
+    background-color: var(--black3);
+    padding: 6rem 1rem;
+    line-height: 3rem;
+}
+
+.footer-top_box span svg {
+    width: 1.6rem;
+    height: 1.6rem;
+    fill: var(--gray3);
+}
+
+.footer-top_box span{
+    margin-right: 1rem;
+}
+
+.footer_top{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    color: var(--gray3);
+}
+
+.footer-top_box a:link,
+.footer-top_box a:visited{
+    display: block;
+    color: var(--gray);
+    font-size: 1.4rem;
+    transition: .6s;
+}
+
+.footer-top_box a:hover{
+    color: var(--orange);
+}
+
+.footer-top_box div{
+    color: var(--gray);
+    font-size: 1.4rem;
+}
+
+.footer-top_box h3{
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 999px) {
+    .footer_top{
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 2rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .footer_top{
+        grid-template-columns: 1fr;
+    }
+}
+
